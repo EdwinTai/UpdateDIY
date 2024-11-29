@@ -20,7 +20,7 @@ namespace WpfGitUpdater
     public partial class MainWindow : Window
     {
         private const string LocalRepoPath = "UpdateRepo"; // 本地暫存目錄
-        private const string RemoteRepoUrl = "https://github.com/your-repo/your-app.git"; // 遠端 Git 儲存庫
+        private const string RemoteRepoUrl = "https://github.com/EdwinTai/UpdateDIY.git"; // 遠端 Git 儲存庫
         private const string AppExecutable = "WpfGitUpdater.exe"; // 主要執行檔
         private const string UpdateBranch = "main"; // 用於更新的分支或標籤
 
