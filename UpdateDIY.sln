@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.35430.204
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfGitUpdater", "WpfGitUpdater\WpfGitUpdater.csproj", "{47FB0A81-7AB8-4D44-92F0-1294CE2D14F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{CBEB4109-60C9-481C-AC0C-98508A8695E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{47FB0A81-7AB8-4D44-92F0-1294CE2D14F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47FB0A81-7AB8-4D44-92F0-1294CE2D14F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47FB0A81-7AB8-4D44-92F0-1294CE2D14F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEB4109-60C9-481C-AC0C-98508A8695E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEB4109-60C9-481C-AC0C-98508A8695E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEB4109-60C9-481C-AC0C-98508A8695E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEB4109-60C9-481C-AC0C-98508A8695E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
