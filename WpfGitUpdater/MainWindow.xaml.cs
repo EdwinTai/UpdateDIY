@@ -77,7 +77,8 @@ namespace WpfGitUpdater
                 var updateDir = Path.Combine(LocalRepoPath, "release");
                 if (!Directory.Exists(updateDir))
                 {
-                    throw new DirectoryNotFoundException("更新檔案資料夾不存在！");
+                    Directory.CreateDirectory(updateDir);
+                    //throw new DirectoryNotFoundException("更新檔案資料夾不存在！");
                 }
 
                 // 複製文件到應用程式目錄
